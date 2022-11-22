@@ -1,0 +1,13 @@
+age = intz(input("Enter your age"))
+if age < 25:
+    print("high")
+else:
+    type_car = input("type of car: Fast car, Family car (fast/fam)")
+    if type_car == "fam":
+        print("Low")
+    else: 
+        had_an_accident = input("had an accident?: Y/N")
+        if had_an_accident == "Y": 
+            print("High") 
+        else: 
+            print("Medium")
